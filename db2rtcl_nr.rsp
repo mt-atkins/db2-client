@@ -1,0 +1,21 @@
+*-----------------------------------------------------
+* Generated response file used by the DB2 Setup wizard
+* generation time: 2/26/15 9:35 AM
+*-----------------------------------------------------
+*  Product Installation 
+LIC_AGREEMENT       = ACCEPT
+PROD       = RUNTIME_CLIENT
+FILE       = /home/db2clnt/v10.5/
+INSTALL_TYPE       = TYPICAL
+* ----------------------------------------------
+*  Instance properties           
+* ----------------------------------------------
+INSTANCE       = inst1
+inst1.TYPE       = client
+*  Instance-owning user
+inst1.NAME       = db2clnt
+inst1.START_DURING_INSTALL       = NO
+*-----------------------------------------------
+*  Installed Languages 
+*-----------------------------------------------
+LANG       = EN
